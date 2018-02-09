@@ -64,9 +64,44 @@ public class ArrayLists {
             System.out.println(position + ". " + arrayList.get(i));
             position++;
         }
+
         System.out.println("\n");
-        showArrayListInformation();
+//        showArrayListInformation();
+
+        arrayList.remove(2);
+
+        position = 1;
+        System.out.println("Removed third item");
+        for(int i = 0 ; i < arrayList.size(); i++) {
+            System.out.println(position + ". " + arrayList.get(i));
+            position++;
+        }
+        System.out.println("\n");
+//        showArrayListInformation();
+
+        arrayList.remove(1);
+
+        position = 1;
+        System.out.println("Removed second item");
+        for(int i = 0 ; i < arrayList.size(); i++) {
+            System.out.println(position + ". " + arrayList.get(i));
+            position++;
+        }
+        System.out.println("\n");
+//        showArrayListInformation();
+//commenting out above instruction dead-ends method, program closes out
+        position = 1;
+        System.out.println("Adding another element");
+        arrayList.add(1, "replaced element 2");
+        for(int i = 0 ; i < arrayList.size(); i++) {
+            System.out.println(position + ". " + arrayList.get(i));
+            position++;
+        }
+        System.out.println("\n");
     }
+
+    //arrayList.remove(indexNumber) OR arrayList.remove("string")
+    //if you want to fix the numbers succeeding each position and set back to 1., must re-initialize position variable
 
     /**This simply prints information regarding ArrayList methods. */
     public void discussArrayListMethods() {
