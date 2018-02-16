@@ -55,9 +55,9 @@ public class ArrayLists {
     public void showArrayListExamples() {
         int position = 1;
         List<String> arrayList = new ArrayList();
-        arrayList.add("Members of a basketball team");
-        arrayList.add("People in line.");
-        arrayList.add("Video games in a library");
+//        arrayList.add("Members of a basketball team");
+//        arrayList.add("People in line.");
+//        arrayList.add("Video games in a library");
 
         System.out.println("ArrayLists have various methods, such as:");
         for(int i = 0 ; i < arrayList.size(); i++) {
@@ -68,36 +68,36 @@ public class ArrayLists {
         System.out.println("\n");
 //        showArrayListInformation();
 
-        arrayList.remove(2);
-
-        position = 1;
-        System.out.println("Removed third item");
-        for(int i = 0 ; i < arrayList.size(); i++) {
-            System.out.println(position + ". " + arrayList.get(i));
-            position++;
-        }
-        System.out.println("\n");
+//        arrayList.remove(2);
+//
+//        position = 1;
+//        System.out.println("Removed third item");
+//        for(int i = 0 ; i < arrayList.size(); i++) {
+//            System.out.println(position + ". " + arrayList.get(i));
+//            position++;
+//        }
+//        System.out.println("\n");
 //        showArrayListInformation();
 
-        arrayList.remove(1);
-
-        position = 1;
-        System.out.println("Removed second item");
-        for(int i = 0 ; i < arrayList.size(); i++) {
-            System.out.println(position + ". " + arrayList.get(i));
-            position++;
-        }
-        System.out.println("\n");
-//        showArrayListInformation();
-//commenting out above instruction dead-ends method, program closes out
-        position = 1;
-        System.out.println("Adding another element");
-        arrayList.add(1, "replaced element 2");
-        for(int i = 0 ; i < arrayList.size(); i++) {
-            System.out.println(position + ". " + arrayList.get(i));
-            position++;
-        }
-        System.out.println("\n");
+//        arrayList.remove(1);
+//
+//        position = 1;
+//        System.out.println("Removed second item");
+//        for(int i = 0 ; i < arrayList.size(); i++) {
+//            System.out.println(position + ". " + arrayList.get(i));
+//            position++;
+//        }
+//        System.out.println("\n");
+////        showArrayListInformation();
+////commenting out above instruction dead-ends method, program closes out
+//        position = 1;
+//        System.out.println("Adding another element");
+//        arrayList.add(1, "replaced element 2");
+//        for(int i = 0 ; i < arrayList.size(); i++) {
+//            System.out.println(position + ". " + arrayList.get(i));
+//            position++;
+//        }
+//        System.out.println("\n");
     }
 
     //arrayList.remove(indexNumber) OR arrayList.remove("string")
